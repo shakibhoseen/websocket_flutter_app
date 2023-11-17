@@ -1,16 +1,25 @@
 # websocket_flutter_app
 
-A new Flutter project. with Websocket and notification systems
+This Flutter application demonstrates real-time communication with a Node.js WebSocket server using the `web_socket_channel` package.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Establishes a WebSocket connection to a Node.js server for real-time communication.
+- Monitors the connection status to the server, providing information on whether the app is currently connected or not.
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [web_socket_channel: ^2.4.0](https://pub.dev/packages/web_socket_channel)
+- Used for WebSocket communication between the Flutter app and the Node.js server.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Demo
+
+Insert GIFs or images showcasing the app's user interface and key features here.
+<kbd>
+<div style="display: flex; justify-content: space-between;">
+  <img alt="Image 1" src="https://github.com/shakibhoseen/websocket_flutter_app/assets/61150626/3daf8bba-46da-40c0-ba06-7b21f3547607" width="260">
+  <img alt="Image 2" src="https://github.com/shakibhoseen/websocket_flutter_app/assets/61150626/f1da5210-925d-4e38-bf61-4f92ec02bc4d" width="260">
+  
+</div>
+</kbd>
