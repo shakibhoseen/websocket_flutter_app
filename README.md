@@ -5,6 +5,7 @@ This Flutter application demonstrates real-time communication with a Node.js Web
 ## Features
 
 - Establishes a WebSocket connection to a Node.js server for real-time communication.
+- Real-time chat functionality.
 - Monitors the connection status to the server, providing information on whether the app is currently connected or not.
 
 ## Dependencies
